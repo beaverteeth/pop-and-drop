@@ -1,9 +1,9 @@
-import React from 'react'
+import React, {Component} from 'react'
 import PopAndDrop from 'pop-and-drop'
 
 import './example.css'
 
-export default class App extends React.Component {
+export default class App extends Component {
 
   constructor(props) {
     super(props)
