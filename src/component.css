@@ -1,0 +1,35 @@
+
+.pop-and-drop-container {
+    position: absolute;
+    animation: pop-and-drop-grow 0.3s ease-in-out;
+    background-color: transparent;
+}
+
+@keyframes pop-and-drop-grow {
+    0% {
+        height: 0%;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+.pop-and-drop-modal {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    animation: pop-and-drop-modal-fade 0.15s ease-in-out;
+}
+
+@keyframes pop-and-drop-modal-fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
